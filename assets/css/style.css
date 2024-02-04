@@ -159,6 +159,9 @@ body{
     border-radius: 5px;
     display: flex;
 }
+#progress{
+    transition: 0.5s;
+}
 
 #totalPoint{
     background-color: #343A40;
