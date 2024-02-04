@@ -179,3 +179,98 @@ body{
     justify-content: center;
     align-items: center;
 }
+#addingQuestion{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#newQuestion{
+    width: 700px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#newVariants{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#newVariant1, #newVariant2, #newVariant3 {
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#addBtn{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #343A40;
+    color: #Fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+    border: 0px;
+}
+#addBtn:hover{
+    background-color: #1f854b;
+    transition: 0.3s;
+}
+.radioBtn{
+    transform: scale(2); 
+}
+#noteText{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+#warningText{
+    font-size: 30px;
+
+}
+#backBtn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#popupSuccess{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 27%;
+    gap: 5px;
+    background-color:rgb(97, 97, 201);
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#successText , #successText2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#successText{
+    color: #fff;
+}
+#successText2{
+    color: rgb(35, 185, 35);
+}
+#popupError{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 27%;
+    gap: 5px;
+    background-color:rgb(191, 49, 49);
+    width: 820px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}

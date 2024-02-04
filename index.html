@@ -14,6 +14,7 @@
         <h1 id="heading">QUESTION GAME</h1>
         <div id="buttons">
             <button id="startBtn">Start</button>
+            <button id="addNewQuestionBtn">Add new question</button>
             <button id="exitBtn">Exit</button>
         </div>
     </section>
@@ -46,8 +47,42 @@
         <h1 id="totalPoint"></h1>
         <div id="buttons">
             <button id="restartBtn">Restart</button>
+            <button id="mainMenuBtn">Main Menu</button>
             <button id="exit2Btn">Exit</button>
         </div>
+    </section>
+
+    <section id="addingQuestion">
+        <input type="text" placeholder="Write your new question" id="newQuestion">
+        <div id="newVariants">
+            <div style="display: flex; gap: 10px;">
+                <input type="text" placeholder="Write first variant" id="newVariant1">
+                <input type="radio" name="v1" id="firstCheck" class="radioBtn">
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <input type="text" placeholder="Write second variant" id="newVariant2">
+                <input type="radio" name="v1" id="secondCheck" class="radioBtn">
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <input type="text" placeholder="Write third variant" id="newVariant3">
+                <input type="radio" name="v1" id="thirdCheck" class="radioBtn">
+            </div>
+        </div>
+        <button id="addBtn">Add</button>
+        <div style="display: flex; gap: 5px;">
+            <p id="noteText">NOTE!</p>
+            <p id="warningText">Please check correct answer !</p>
+        </div>
+        <button id="backBtn"><-- Back</button>
+    </section>
+
+    <section id="popupSuccess">
+        <h1 id="successText">Your new question added</h1>
+        <h1 id="successText2">successfully!</h1>
+    </section>
+
+    <section id="popupError">
+        <h1 id="successText">Your new question not added! Please write question with all not same answers and check correct answer!</h1>
     </section>
 </body>
 
