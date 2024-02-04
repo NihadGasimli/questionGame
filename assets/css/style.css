@@ -1,0 +1,181 @@
+body{
+    background-color: #F8F9FA;
+}
+#firstPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#buttons button{
+    width: 230px;
+    height: 70px;
+    background-color: #343A40;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#buttons button:hover{
+    background-color: #212529;
+    transition: 0.2s;
+}
+#heading{
+    background-color: #343A40;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+#game{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#q{
+    background-color: #343A40;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#questionNumber{
+    font-size: 40px;
+    color: #Fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#questionnn{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#variants{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+#text1{
+    background-color: #343A40;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#text2{
+    background-color: #343A40;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+#text3{
+    background-color: #343A40;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#variant1{
+    background-color: fff;
+    border: 0px;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+#a{
+    display: flex;
+    flex-direction: column;
+}
+
+#variant2{
+    background-color: fff;
+    border: 0px;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+#b{
+    display: flex;
+    flex-direction: column;
+}
+
+#variant3{
+    background-color: fff;
+    border: 0px;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+#c{
+    display: flex;
+    flex-direction: column;
+}
+
+#progressBar{
+    border: 3px solid black;
+    width: 60%;
+    height: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#totalPoint{
+    background-color: #343A40;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#finish{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
